@@ -24,7 +24,7 @@
 ###코드
 
 
-'''
+'''   
 #센서 제어 라이브러리
 import RPi.GPIO as gpio
 import time
@@ -168,4 +168,4 @@ label2.pack()
 root.mainloop()
 
 
-'''
+   '''
