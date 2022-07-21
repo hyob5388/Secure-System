@@ -21,6 +21,7 @@
    * 소지품이 도난당했을 때 금고의 문이 열리는 순간 피에조 부저가 작동하여 주변에 경고음을 주며, 실시간으로 문자 메시지가 자신의 핸드폰으로 발송되고 도난 발생 상황이 촬영된 영상을 메일로 전송하여 확인함으로써 빠른 대처와 증거를 남길 수 있도록 돕는 시스템
    
    
+###코드
 '''
 #센서 제어 라이브러리
 import RPi.GPIO as gpio
@@ -152,10 +153,6 @@ def OnMode():
     except KeyboardInterrupt:
         print("System Finish")
         
-            
-
-
-
 btn1 = Button(root,text="외출모드 ON",fg='red',bg='lightgrey',font=('koberwatch',60),command = OnMode)
 btn1.pack(fill=BOTH)
 
