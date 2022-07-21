@@ -22,6 +22,8 @@
    
    
 ###코드
+
+
 '''
 #센서 제어 라이브러리
 import RPi.GPIO as gpio
@@ -160,5 +162,5 @@ label2 = Label(root, text="Time stamp",fg='black',font=('koberwatch'))
 label2.pack()
 
 root.mainloop()
-
 '''
+
