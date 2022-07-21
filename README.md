@@ -155,6 +155,10 @@ def OnMode():
     except KeyboardInterrupt:
         print("System Finish")
         
+            
+
+
+
 btn1 = Button(root,text="외출모드 ON",fg='red',bg='lightgrey',font=('koberwatch',60),command = OnMode)
 btn1.pack(fill=BOTH)
 
@@ -162,5 +166,6 @@ label2 = Label(root, text="Time stamp",fg='black',font=('koberwatch'))
 label2.pack()
 
 root.mainloop()
-'''
 
+
+'''
